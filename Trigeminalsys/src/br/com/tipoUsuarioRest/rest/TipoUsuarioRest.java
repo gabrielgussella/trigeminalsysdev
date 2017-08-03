@@ -25,7 +25,7 @@ public class TipoUsuarioRest extends UtilRest {
 	}
 	
 	@POST
-	@Path("/addTipoUsuario")
+	@Path("/addTipoUsuario") //teste	
 	@Consumes("application/*")
 	public Response addTipoUsuario(String tipousuarioParam) {
 		
