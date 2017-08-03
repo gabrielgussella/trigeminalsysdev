@@ -1,0 +1,22 @@
+<meta charset = "UTF-8"/>
+<link rel = "stylesheet" href="resources/tipousuario/css/tipousuario.css"></link>
+<script type="text/javascript" src="resources/tipousuario/js/tipousuario.js"></script>
+
+<fieldset class ="conteudo-fieldset fieldsetCadastro">
+<legend>Cadastro de Tipo de Usuario</legend>
+	<form id="cadastrarTipoUsuario" class="form">
+
+		<div class="div-form">
+			<label>Descricao: </label>
+			<input id="descricao" name="txtdescricao" type="text"></input>
+		</div>
+		
+		<div class="div-form-button">
+			<input type="button" value="Enviar" onclick="TRIGEMINAL.tipousuario.cadastrar()"/>
+		 	<input type="reset" value="Limpar"/>
+		</div>
+	</form>
+</fieldset>
+
+<div id="msg" style="display:none">
+</div>

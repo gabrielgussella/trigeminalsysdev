@@ -1,0 +1,32 @@
+.div{
+	margin-top: 30px;
+}
+
+.link{
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+/*FORMULARIO*/
+.div-form{
+	width:100px;
+	margin-left:40px;
+}
+.div-form label{
+	position:absolute;
+	
+}
+.div-form input{
+	margin-left:150px;
+}
+.div-form-button{
+	margin-left:40px;
+	margin-top:8px;
+}
+
+.fieldset{
+	width:500px;
+	text-align:center;
+	margin:auto;
+	padding:10px;
+}
